@@ -20,6 +20,7 @@
 ### -  Sécurisation réseau
 ### -  Mise en place d’un PRA/PCA
 ### -  Modernisation du parc informatique
+
 ---
 
 # Projets applicatifs
@@ -29,6 +30,7 @@
 ### -  Refonte d’un site web ou d’un portail client
 ### -  Intégration d’un outil RH, comptable, logistique
 ### -  Automatisation de processus (RPA)
+
 ---
 
 # Projets de cybersécurité
@@ -38,6 +40,7 @@
 ### -  Sécurisation des emails (anti-phishing, DMARC, etc.)
 ### -  Conformité RGPD / ISO 27001
 ### -  Gestion des vulnérabilités
+
 ---
 
 # Projets de data & analytics
@@ -47,6 +50,7 @@
 ### -  Qualité des données (Data Quality)
 ### -  Machine Learning / IA appliquée
 ### -  Migration de bases de données
+
 ---
 
 # Projets cloud & modernisation
@@ -55,6 +59,7 @@
 ### -  Modernisation applicative (cloud native)
 ### -  Mise en place de CI/CD
 ### -  Observabilité (monitoring, logs, alerting)
+
 ---
 
 # Projets organisationnels / gouvernance SI
@@ -63,6 +68,7 @@
 ### -  Urbanisation du SI
 ### -  Mise en place d’une gouvernance ITIL
 ### -  Gestion du portefeuille de projets
+
 ---
 
 # Projets orientés utilisateurs
@@ -71,6 +77,7 @@
 ### -  Gestion du support (ITSM, ticketing)
 ### -  Sensibilisation cybersécurité
 ### -  Refonte du poste de travail
+
 ---
 
 # Projets réglementaires / conformité
