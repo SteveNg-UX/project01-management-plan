@@ -64,23 +64,38 @@
 ## II.6 Analyse des risques
 - Explication : 
 - Notion :
-    - **Matrice de risques :**
-        - **ID** : identifiant unique du risque
-        - **Scénario** : description du risque
-        - **Cause** : origine potentielle du risque
-        - **Conséquence** : impact sur le projet ou le SI
-        - **Niveau d’impact (Criticité)** :
-            - Négligeable (1)
-            - Mineur (2)
-            - Modéré (3)
-            - Majeur (4)
-            - Catastrophique (5)
-        - **Probabilité d’occurrence** :
-            - Peu probable (1)
-            - Probable (2)
-            - Possible (3)
-            - Très probable (4)
-        - **Score du risque** : Impact × Probabilité
-        - **Mesures de mitigation** :
-            - Préventives
-            - Correctives
+<details>
+  <summary>Matrice de Risque</summary>
+
+| Element matrice   |
+|------------------:|
+|ID                 |
+|Scénario           |
+|Cause              |
+|Conséquence        |
+|Impact / Criticité |
+|Probabilité        |
+|Priorité (score)   |
+|Mesure mitigation  |
+
+| Impact        | score |
+|--------------:|-------|
+|Négligeable    |1      |
+|Mineur         |2      |
+|Modéré         |3      |
+|Majeur         |4      |
+|Catastrophique |5      |
+
+| probable event  | score |
+|----------------:|-------|
+|Peu probable     |1      |
+|Probable         |2      |
+|Possible         |3      |
+|Très probable    |4      |
+
+| Mesure mitigation |
+|------------------:|
+| Préventives       |
+| Correctives       |
+
+</details>
