@@ -2,7 +2,7 @@
 - [II.1 Équipe projet](#ii1-équipe-projet)
 - [II.2 Gouvernance](#ii2-gouvernance)
 - [II.3 Méthodologie](#ii3-méthodologie)
-- [II.4 Planning](#ii4-planning)
+- [II.4 Planning de tâches](#ii4-planning)
 - [II.5 Budget / Coûts](#ii5-budget--coûts)
 - [II.6 Analyse des risques](#ii6-analyse-des-risques)
 
@@ -18,9 +18,9 @@
 ## II.2 Gouvernance
 - Explication : 
 - Notion :
-    - COPROJ
-    - COPIL
-    - CODIR
+    - **COPROJ**
+    - **COPIL**
+    - **CODIR**
 
 ---
 
@@ -28,30 +28,40 @@
 - Explication : 
 - Notion :
     - Catégorie Cycle Sequentielle
-        - **Cycle :**
-            - V
-            - Waterfall
+
+        | Cycle   |
+        |--------:|
+        |V        |
+        |Waerfall |
 
     - Catégorie Cycle Iteratif
-        - **Cycle :**
-            - Agile
-            - Lean
-        - **Méthode :**
-            - Kanban
-            - Scrum
-        - **Culture :**
-            - DevOps
+        | Cycle   |
+        |--------:|
+        |Agile    |
+        |Lean     |
+
+        | Méthode |
+        |--------:|
+        |Kanban   |
+        |Scrum    |
+
+        | Culture |
+        |--------:|
+        |DevOps   |
+        |Scrum    |
 
 ---
 
 ## II.4 Planning
 - Explication : 
 - Notion :
-    - Diagramme de gantt (plan des tâches) :
-        - tâches
-        - durée
-        - date d'échéance
-        - estimation jours homme
+
+| Diagramme de gantt    |
+|----------------------:|
+|tâches                 |
+|durée                  |
+|date d'échéance        |
+|estimation jours homme |
 
 ---
 
