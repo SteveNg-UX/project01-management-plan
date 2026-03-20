@@ -11,7 +11,19 @@
 ## II.1 Équipe projet
 - Explication : 
 - Notion :
-    - Matrice RACI
+
+    | Matrice RACI  |
+    |--------------:|
+    |Tâche          |
+    |Equipe         |
+    |Rôle           |
+
+    | Rôle        |
+    |------------:|
+    |Responsable  |
+    |Approuveur   |
+    |Conseiller   |
+    |Informé      |
 
 ---
 
