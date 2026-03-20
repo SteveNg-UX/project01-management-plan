@@ -1,8 +1,86 @@
 # II. Gouvernance & Méthodologie
+- [II.1 Équipe projet](#ii1-équipe-projet)
+- [II.2 Gouvernance](#ii2-gouvernance)
+- [II.3 Méthodologie](#ii3-méthodologie)
+- [II.4 Planning](#ii4-planning)
+- [II.5 Budget / Coûts](#ii5-budget--coûts)
+- [II.6 Analyse des risques](#ii6-analyse-des-risques)
 
-### II.1 Équipe projet
-### II.2 Gouvernance
-### II.3 Méthodologie
-### II.4 Planning
-### II.5 Budget / Coûts
-### II.6 Analyse des risques
+---
+
+## II.1 Équipe projet
+- Explication : 
+- Notion :
+    - Matrice RACI
+
+---
+
+## II.2 Gouvernance
+- Explication : 
+- Notion :
+    - COPROJ
+    - COPIL
+    - CODIR
+
+---
+
+## II.3 Méthodologie
+- Explication : 
+- Notion :
+    - Catégorie Cycle Sequentielle
+        - **Cycle :**
+            - V
+            - Waterfall
+
+    - Catégorie Cycle Iteratif
+        - **Cycle :**
+            - Agile
+            - Lean
+        - **Méthode :**
+            - Kanban
+            - Scrum
+        - **Culture :**
+            - DevOps
+
+---
+
+## II.4 Planning
+- Explication : 
+- Notion :
+    - Diagramme de gantt (plan des tâches) :
+        - tâches
+        - durée
+        - date d'échéance
+        - estimation jours homme
+
+---
+
+## II.5 Budget / Coûts
+- Explication : 
+- Notion :
+
+---
+
+## II.6 Analyse des risques
+- Explication : 
+- Notion :
+    - **Matrice de risques :**
+        - **ID** : identifiant unique du risque
+        - **Scénario** : description du risque
+        - **Cause** : origine potentielle du risque
+        - **Conséquence** : impact sur le projet ou le SI
+        - **Niveau d’impact (Criticité)** :
+            - Négligeable (1)
+            - Mineur (2)
+            - Modéré (3)
+            - Majeur (4)
+            - Catastrophique (5)
+        - **Probabilité d’occurrence** :
+            - Peu probable (1)
+            - Probable (2)
+            - Possible (3)
+            - Très probable (4)
+        - **Score du risque** : Impact × Probabilité
+        - **Mesures de mitigation** :
+            - Préventives
+            - Correctives
