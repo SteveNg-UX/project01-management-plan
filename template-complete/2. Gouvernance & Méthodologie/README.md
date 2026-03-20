@@ -29,26 +29,27 @@
 - Notion :
     - Catégorie Cycle Sequentielle
 
-        | Cycle   |
-        |--------:|
-        |V        |
-        |Waerfall |
+      | Cycle   |
+      |--------:|
+      |V        |
+      |Waerfall |
 
     - Catégorie Cycle Iteratif
-        | Cycle   |
-        |--------:|
-        |Agile    |
-        |Lean     |
 
-        | Méthode |
-        |--------:|
-        |Kanban   |
-        |Scrum    |
+      | Cycle   |
+      |--------:|
+      |Agile    |
+      |Lean     |
 
-        | Culture |
-        |--------:|
-        |DevOps   |
-        |Scrum    |
+      | Méthode |
+      |--------:|
+      |Kanban   |
+      |Scrum    |
+
+      | Culture |
+      |--------:|
+      |DevOps   |
+      |Scrum    |
 
 ---
 
@@ -56,12 +57,12 @@
 - Explication : 
 - Notion :
 
-| Diagramme de gantt    |
-|----------------------:|
-|tâches                 |
-|durée                  |
-|date d'échéance        |
-|estimation jours homme |
+    | Diagramme de gantt    |
+    |----------------------:|
+    |tâches                 |
+    |durée                  |
+    |date d'échéance        |
+    |estimation jours homme |
 
 ---
 
@@ -75,33 +76,33 @@
 - Explication : 
 - Notion :
 
-| Matrice de Risque |
-|------------------:|
-|ID                 |
-|Scénario           |
-|Cause              |
-|Conséquence        |
-|Impact / Criticité |
-|Probabilité        |
-|Priorité (score)   |
-|Mesure mitigation  |
+    | Matrice de Risque |
+    |------------------:|
+    |ID                 |
+    |Scénario           |
+    |Cause              |
+    |Conséquence        |
+    |Impact / Criticité |
+    |Probabilité        |
+    |Priorité (score)   |
+    |Mesure mitigation  |
 
-| Impact        | score |
-|--------------:|-------|
-|Négligeable    |1      |
-|Mineur         |2      |
-|Modéré         |3      |
-|Majeur         |4      |
-|Catastrophique |5      |
+    | Impact        | score |
+    |--------------:|-------|
+    |Négligeable    |1      |
+    |Mineur         |2      |
+    |Modéré         |3      |
+    |Majeur         |4      |
+    |Catastrophique |5      |
 
-| probable event  | score |
-|----------------:|-------|
-|Peu probable     |1      |
-|Probable         |2      |
-|Possible         |3      |
-|Très probable    |4      |
+    | probable event  | score |
+    |----------------:|-------|
+    |Peu probable     |1      |
+    |Probable         |2      |
+    |Possible         |3      |
+    |Très probable    |4      |
 
-| Mesure mitigation |
-|------------------:|
-| Préventives       |
-| Correctives       |
+    | Mesure mitigation |
+    |------------------:|
+    | Préventives       |
+    | Correctives       |
