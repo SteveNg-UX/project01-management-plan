@@ -1,23 +1,48 @@
 # III. Cadrage
 
-### III.1 Analyse de l’existant
-### III.2 Critique de l’existant
-### III.3 Définition des trajectoires
-### III.4 Choix de la trajectoire cible
 
+[III.1 Analyse de l’existant](#iii1-analyse-de-lexistant)
+[III.2 Critique de l’existant](#iii2-critique-de-lexistant)
+[III.3 Définition des trajectoires](#iii3-définition-des-trajectoires)
+[III.4 Choix de la trajectoire cible](#iii4-choix-de-la-trajectoire-cible)
 
-<details>
-  <summary>III.1 Analyse de l’existant</summary>
-</details>
+---
 
-<details>
-  <summary>III.2 Critique de l’existant</summary>
-</details>
+## III.1 Analyse de l’existant
+- Explication :
+- Notion :
+  - [Périmètre]()
 
-<details>
-  <summary>III.3 Définition des trajectoires</summary>
-</details>
+---
 
-<details>
-  <summary>III.4 Choix de la trajectoire cible</summary>
-</details>
+## III.2 Critique de l’existant
+- Explication :
+- Notion :
+  - [Périmètre]()
+
+---
+
+## III.3 Définition des trajectoires
+- Explication :
+- Notion :
+  - [Périmètre]()
+
+---
+
+## III.4 Choix de la trajectoire cible
+- Explication :
+- Notion :
+  - [Périmètre](#remarque-)
+
+---
+
+### Remarque :
+
+| Périmètre |
+|----------:|
+|Fonctonnel |
+|Applicatif |
+|OS         |
+|Materiel   |
+|Réseau     |
+|Stratégie  |

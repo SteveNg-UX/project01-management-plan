@@ -64,10 +64,8 @@
 ## II.6 Analyse des risques
 - Explication : 
 - Notion :
-<details>
-  <summary>Matrice de Risque</summary>
 
-| Element matrice   |
+| Matrice de Risque |
 |------------------:|
 |ID                 |
 |Scénario           |
