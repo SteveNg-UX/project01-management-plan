@@ -13,7 +13,7 @@
 - Notion :
 
     | Comment présenter le client                               |
-    |----------------------------------------------------------:|
+    |------------------:|--------------------------------------:|
     |Entreprise         | (Nom)                                 |
     |Effectif           | (N) Personnels                        |
     |Chiffre d'Affaire  | (N) € /ans                            |
