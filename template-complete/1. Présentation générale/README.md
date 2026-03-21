@@ -13,7 +13,7 @@
 - Notion :
 
     | Comment présenter le client                               |
-    |:------------------|:--------------------------------------|
+    |:----------------- |:------------------------------------- |
     |Entreprise         | (Nom)                                 |
     |Effectif           | (N) Personnels                        |
     |Chiffre d'Affaire  | (N) € /ans                            |
@@ -24,7 +24,7 @@
 
     - Type
     |Acronyme   |Nom Complet                        |Effectif   |Chiffre d'Affaire      |
-    |:----------|:----------------------------------|:----------|:----------------------|
+    |:--------- |:--------------------------------- |:--------- |:--------------------- |
     |TPE        | Très Petit Entreprise             | < 10      | <= 2M € /ans          |
     |PME        | Petit Moyen Entreprise            | 10-249    | 2M € - 50M € /ans     |
     |ETI        | Entreprise Taille Intermédiaire   | 250-4999  | 50M € - 1,5Md € /ans  |
@@ -88,9 +88,9 @@
 ## I.4 Besoins / Objectifs
 - Explication : exprime ce qu’il faut pour répondre au problèmatique
 
-| Caracteristique                                                                               |
-|:----------------------------------------------------------------------------------------------|
-| Besoins fonctionnels  |ce que l’utilisateur veut faire                                        |
+| Caracteristique       | Detail                                                                |
+|:--------------------- |:--------------------------------------------------------------------- |
+| Besoins fonctionnels  | ce que l’utilisateur veut faire                                       |
 | Besoins techniques    | performance, sécurité…                                                |
 | Objectifs SMART       | Objectifs Spécifique - Mesurable – Atteignable – Réaliste - Temporel  |
 
