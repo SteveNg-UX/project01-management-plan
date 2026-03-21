@@ -88,16 +88,25 @@
 - Explication : 
 - Notion :
 
-    | Matrice de Risque |
-    |------------------:|
-    |ID                 |
-    |Scénario           |
-    |Cause              |
-    |Conséquence        |
-    |Impact / Criticité |
-    |Probabilité        |
-    |Priorité (score)   |
-    |Mesure mitigation  |
+    - Matrice de Risque
+
+    | ID    | Scénario  | Cause | Conséquence   | Impact / Criticité    | Probabilité   | Priorité (score = Impact+ P robabilité)   | Mesure mitigation |
+    |:------|:----------|:------|:--------------|:----------------------|:--------------|:------------------------------------------|:------------------|
+    | R1    | ...       | ...   | ...           | 2                     | 3             | 5                                         | ...               |
+    | R2    | ...       | ...   | ...           | 5                     | 2             | 7                                         | ...               |
+    | ...   | ...       | ...   | ...           | ...                   | ...           | ...                                       | ...               |
+    | R(n)  | ...       | ...   | ...           | (1-5)                 | (1-4)         | (2-9)                                     | ...               |
+
+    |Impact / probablilité  |Peu probable (1)   |Probable (2)   |Possible (3)   |Très probable (4)  |
+    |:----------------------|:------------------|:--------------|:--------------|:------------------|
+    |Négligeable (1)        |                   |               |               |                   |
+    |Mineur (2)             |                   |               | R1            |                   |
+    |Modéré (3)             |                   |               |               |                   |
+    |Majeur (4)             |                   |               |               |                   |
+    |Catastrophique (5)     |                   | R2            |               |                   |
+
+
+    - Indication
 
     | Impact        | score |
     |--------------:|-------|
@@ -114,7 +123,7 @@
     |Possible         |3      |
     |Très probable    |4      |
 
-    | Mesure mitigation |
-    |------------------:|
-    | Préventives       |
-    | Correctives       |
+    | Type de mesure mitigation |
+    |--------------------------:|
+    | Préventives               |
+    | Correctives               |
