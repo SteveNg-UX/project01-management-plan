@@ -12,7 +12,9 @@
 - Explication : presente le client concerné par le projet
 - Notion :
 
-    | Comment présenter le client                               |
+    - Comment présenter le client
+
+    | Element           | Valeur                                |
     |:----------------- |:------------------------------------- |
     |Entreprise         | (Nom)                                 |
     |Effectif           | (N) Personnels                        |
@@ -23,6 +25,7 @@
     |Secteur d'activité | (Spécialité)                          |
 
     - Type
+    
     |Acronyme   |Nom Complet                        |Effectif   |Chiffre d'Affaire      |
     |:--------- |:--------------------------------- |:--------- |:--------------------- |
     |TPE        | Très Petit Entreprise             | < 10      | <= 2M € /ans          |
