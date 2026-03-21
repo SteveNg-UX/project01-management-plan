@@ -22,8 +22,7 @@
     |Année d'existance  | (N) Ans                               |
     |Secteur d'activité | (Spécialité)                          |
 
-    |Type                                                                               |
-    |----------------------------------------------------------------------------------:|
+    - Type
     |Acronyme   |Nom Complet                        |Effectif   |Chiffre d'Affaire      |
     |----------------------------------------------------------------------------------:|
     |TPE        | Très Petit Entreprise             | < 10      | <= 2M € /ans          |
