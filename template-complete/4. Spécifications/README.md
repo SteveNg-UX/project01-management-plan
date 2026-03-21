@@ -27,10 +27,10 @@
 
     - Mise en pratique sur la priorisation des exigences (méthode MSCW):
 
-    |Must   |Should |Could  |Won't  |
-    |:------|-------|-------|-------|
-    |EXGF1  |EXGF2  |       |       |
-    |       |       |       |       |
+    |Must (critique)    |Should (important) |Could (confort)    |Won't (négligeable)    |
+    |:------------------|-------------------|-------------------|-----------------------|
+    |EXGT2              |EXGT1              |                   |                       |
+    |                   |                   |                   |                       |
 
 ---
 
