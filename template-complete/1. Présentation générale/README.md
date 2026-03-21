@@ -13,7 +13,7 @@
 - Notion :
 
     | Comment présenter le client                               |
-    |-------------------|--------------------------------------:|
+    |:------------------|:--------------------------------------|
     |Entreprise         | (Nom)                                 |
     |Effectif           | (N) Personnels                        |
     |Chiffre d'Affaire  | (N) € /ans                            |
@@ -24,14 +24,14 @@
 
     - Type
     |Acronyme   |Nom Complet                        |Effectif   |Chiffre d'Affaire      |
-    |----------------------------------------------------------------------------------:|
+    |:----------|:----------------------------------|:----------|:----------------------|
     |TPE        | Très Petit Entreprise             | < 10      | <= 2M € /ans          |
     |PME        | Petit Moyen Entreprise            | 10-249    | 2M € - 50M € /ans     |
     |ETI        | Entreprise Taille Intermédiaire   | 250-4999  | 50M € - 1,5Md € /ans  |
     |GE         | Grande Entreprise                 | >= 5000   | > 1,5Md € /ans        |
 
     |Spécialité                                             |
-    |------------------------------------------------------:|
+    |:------------------------------------------------------|
     |Agriculture                                            |
     |Armées, sécurité et défense publique                   |
     |Bâtiment - Travaux publics                             |
@@ -58,13 +58,13 @@
 - Explication : expliquer la situation / etat actuelle
 
 | Comment présenter le contexte                             |
-|----------------------------------------------------------:|
+|:----------------------------------------------------------|
 | Etat actuelle du SI                                       |
 | Etat initial du SI                                        |
 | Plans d’analyse                                           |
 
 | Plans d’analyse   |
-|------------------:|
+|:------------------|
 | Politique         |
 | Économique        |
 | Socioculturel     |
@@ -78,7 +78,7 @@
 - Explication : exprimer le problème dont le SI fait face
 
 | Caracteristique                   |
-|----------------------------------:|
+|:----------------------------------|
 | Unique                            |
 | Formulée sous forme de question   |
 | Liée à un enjeu métier ou SI      |
@@ -89,13 +89,13 @@
 - Explication : exprime ce qu’il faut pour répondre au problèmatique
 
 | Caracteristique                                                                               |
-|----------------------------------------------------------------------------------------------:|
+|:----------------------------------------------------------------------------------------------|
 | Besoins fonctionnels  |ce que l’utilisateur veut faire                                        |
 | Besoins techniques    | performance, sécurité…                                                |
 | Objectifs SMART       | Objectifs Spécifique - Mesurable – Atteignable – Réaliste - Temporel  |
 
 | Besoins techniques    |
-|----------------------:|
+|:----------------------|
 | Disponibilité         |
 | Sécurité              |
 | Fiabilité             |
@@ -111,7 +111,7 @@
 - Explication : definit les limites/zones de resource de l'infra SI sur laquelle le projet impactera
 
 | Plan  périmètre                           |
-|------------------------------------------:|
+|:------------------------------------------|
 | Sur le plan fonctionnel                   |
 | Sur le plan applicatif                    |
 | Sur le plan OS                            |
@@ -125,29 +125,29 @@
 - Explication : ce que le projet doit produire pour répondre au besoin
 
 | Type de Livrables     |
-|----------------------:|
+|:----------------------|
 | Documents             |
 | Artefacts techniques  |
 | Environnements        |
 | Résultats             |
 
 | Ex de Documents       |
-|----------------------:|
+|:----------------------|
 | cadrage               |
 | spécifications        |
 
 | Ex d'Artefacts techniques |
-|--------------------------:|
+|:--------------------------|
 | maquettes                 |
 | scripts                   |
 
 | Ex d'Environnements   |
-|----------------------:|
+|:----------------------|
 | dev                   |
 | test                  |
 | prod                  |
 
 | Ex de Résultats           |
-|--------------------------:|
+|:--------------------------|
 | tests validés             |
 | migration effectuée       |
