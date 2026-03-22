@@ -113,14 +113,16 @@
 ## I.5 Périmètre du projet
 - Explication : definit les limites/zones de resource de l'infra SI sur laquelle le projet impactera
 
-| Plan  périmètre                           |
-|:------------------------------------------|
-| Sur le plan fonctionnel                   |
-| Sur le plan applicatif                    |
-| Sur le plan OS                            |
-| Sur le plan matériel                      |
-| Sur le plan réseau                        |
-| Sur le plan de gouvernance / stratégie    |
+| Plan du périmètre                         | Ce qui peut concrétement être               |
+|:------------------------------------------|:--------------------------------------------|
+| Sur le plan fonctionnel                   | Besoins métiers, processus, cas d’usage     |
+| Sur le plan applicatif                    | Applications, interconnexions, versions     |
+| Sur le plan OS                            | Systèmes d’exploitation, patching, support  |
+| Sur le plan matériel                      | Serveurs, stockage, postes, virtualisation  |
+| Sur le plan réseau                        | LAN, WAN, sécurité, segmentation            |
+| Sur le plan de gouvernance / stratégie    | Rôles, responsabilités, politiques, normes  |
+| Sécurité                                  | IAM, SOC, PRA/PCA, conformité               |
+| Données                                   | Qualité, stockage, flux, classification     |
 
 ---
 
