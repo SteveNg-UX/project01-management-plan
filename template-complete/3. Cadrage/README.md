@@ -22,7 +22,7 @@
     | Niveaux de criticité                      |
     | Contraintes actuelles                     |
 
-    - Lister et classer les Actifs selon le plan vue précédemment à l'étape [Présentation général dans la partie I.5 Périmètre du projet]()
+    - Lister et classer les Actifs selon le plan vue précédemment à l'étape [Présentation général dans la partie I.5 Périmètre du projet](https://gitlab.com/noxumbris/project-01-management-plan/-/tree/main/template-complete/1.%20Pr%C3%A9sentation%20g%C3%A9n%C3%A9rale?ref_type=heads#i5-p%C3%A9rim%C3%A8tre-du-projet)
 
     |ID     |Actif SI                       |quantité   |Fonction                                       |Plan de la rsesource   |
     |:------|:------------------------------|:----------|:----------------------------------------------|-----------------------|
