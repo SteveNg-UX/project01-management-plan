@@ -109,7 +109,7 @@
     - Le nombre d'actif
     - Le Type de Coût
     - La catégorie de dépense
-    - Plan du périmètre (présenté précédemment à la Présentation général [partie I.5](#i5-périmètre-du-projet)))
+    - Plan du périmètre (présenté précédemment à la l'étape [Présentation général partie I.5](https://gitlab.com/noxumbris/project-01-management-plan/-/tree/main/template-complete/1.%20Pr%C3%A9sentation%20g%C3%A9n%C3%A9rale?ref_type=heads#i5-p%C3%A9rim%C3%A8tre-du-projet))
 
     |Catérogie de dépense   |Desciption                                                                                         |Exemple                                                            |
     |:----------------------|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
@@ -131,7 +131,7 @@
     |CT2    |Licence Win2025 Standard   |672,05€ HT     |x5                 |matériels      |CAPEX                  |                   |
     |CT3    |Licence E3 Microsoft 365   |34,90€ HT /mois|x20                |logiciels      |OPEX                   |                   |
     |...    |...                        |...            |...                |...            |...                    |...                |
-    |CT(n)  |(composant du SI)          |(n)€           |x(n)               |               |                       |                   |
+    |CT(n)  |(composant du SI)          |(n)€           |x(n)               |(type)         |(CAPEX/OPEX)           |(périmètre)        |
 
     - Calcule de coût total de possession et de retour sur investissement
 
