@@ -104,12 +104,36 @@
 - Explication : 
 - Notion :
 
-    |Catégories Coût    |Ce qui peut concrétement être  |
+    Les coûts de chaque actif sur l'ensemble du SI seront catégorisé selon 5 critaires:
+    - Le coût de l'actif
+    - Le nombre d'actif
+    - Le Type de Coût
+    - La catégorie de dépense
+    - Plan du périmètre (présenté précédemment à la Présentation général [partie I.5](#i5-périmètre-du-projet)))
+
+    |Catérogie de dépense   |Desciption                                                                                         |Exemple                                                            |
+    |:----------------------|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
+    |CAPEX                  |Dépenses Capitales donc des dépenses initials important pour un investissement sur de long terme   |Achat de materiel, Achat des locaux                                |
+    |OPEX                   |Dépense d'Exploitation donc des dépenses quotidiennes pour la maintenance du SI                    |Abonnement logiciels Saas, Factures d'energie, Salaires mensuels   |
+
+    |Type de Coût       |Ce qui peut concrétement être  |
     |:------------------|:------------------------------|
     |Coûts humains      |jours-homme                    |
     |Coûts matériels    |serveurs, licences             |
     |Coûts logiciels    |SaaS, abonnements              |
     |Coûts de services  |intégrateurs, consultants      |
+
+    - Listing et classement des actifs
+
+    |ID     |Actif                      |Coût           |Nombre à l'unité   |Type de Coût   |Catérogie de dépense   |Plan du périmètre  |
+    |:------|:--------------------------|:--------------|:------------------|:--------------|:----------------------|:------------------|
+    |CT1    |QNAP TS-464                |634€ HT        |x2                 |matériels      |CAPEX                  |                   |
+    |CT2    |Licence Win2025 Standard   |672,05€ HT     |x5                 |matériels      |CAPEX                  |                   |
+    |CT3    |Licence E3 Microsoft 365   |34,90€ HT /mois|x20                |logiciels      |OPEX                   |                   |
+    |...    |...                        |...            |...                |...            |...                    |...                |
+    |CT(n)  |(composant du SI)          |(n)€           |x(n)               |               |                       |                   |
+
+    - Calcule de coût total de possession et de retour sur investissement
 
     |Evaluation globale |Ce qui peut concrétement être                                  |
     |:------------------|:--------------------------------------------------------------|
