@@ -10,9 +10,12 @@
 
 ## I.1 Client
 - Explication : presente le client concerné par le projet
-- Notion :
+- Etape :
 
-    - Comment présenter le client
+    Présenter l'entreprise client comprend 3 élements:
+    - Info général
+    - Type d'entreprise
+    - Secteur d'activité
 
     | Element           | Valeur                                |
     |:----------------- |:------------------------------------- |
@@ -24,16 +27,14 @@
     |Année d'existance  | (N) Ans                               |
     |Secteur d'activité | (Spécialité)                          |
 
-    - Type
-    
-    |Acronyme   |Nom Complet                        |Effectif   |Chiffre d'Affaire      |
-    |:--------- |:--------------------------------- |:--------- |:--------------------- |
-    |TPE        | Très Petit Entreprise             | < 10      | <= 2M € /ans          |
-    |PME        | Petit Moyen Entreprise            | 10-249    | 2M € - 50M € /ans     |
-    |ETI        | Entreprise Taille Intermédiaire   | 250-4999  | 50M € - 1,5Md € /ans  |
-    |GE         | Grande Entreprise                 | >= 5000   | > 1,5Md € /ans        |
+    |Type d'Entreprise  |Nom Complet                        |Effectif   |Chiffre d'Affaire      |
+    |:----------------- |:--------------------------------- |:--------- |:--------------------- |
+    |TPE                | Très Petit Entreprise             | < 10      | <= 2M € /ans          |
+    |PME                | Petit Moyen Entreprise            | 10-249    | 2M € - 50M € /ans     |
+    |ETI                | Entreprise Taille Intermédiaire   | 250-4999  | 50M € - 1,5Md € /ans  |
+    |GE                 | Grande Entreprise                 | >= 5000   | > 1,5Md € /ans        |
 
-    |Spécialité                                             |
+    |Secteur d'Activité                                     |
     |:------------------------------------------------------|
     |Agriculture                                            |
     |Armées, sécurité et défense publique                   |
@@ -59,21 +60,24 @@
 
 ## I.2 Contexte
 - Explication : expliquer la situation / etat actuelle
+- Etape :
 
-| Comment présenter le contexte                             |
-|:----------------------------------------------------------|
-| Etat actuelle du SI                                       |
-| Etat initial du SI                                        |
-| Plans d’analyse                                           |
+    Présenter le contexte du client comprend 3 élements:
 
-| Plans d’analyse   |
-|:------------------|
-| Politique         |
-| Économique        |
-| Socioculturel     |
-| Technologique     |
-| Écologique        |
-| Légal             |
+    | Présenter le contexte                                     |
+    |:----------------------------------------------------------|
+    | Etat initial du SI                                        |
+    | Etat actuelle du SI                                       |
+    | Plans d’analyse                                           |
+
+    | Plans d’analyse   |
+    |:------------------|
+    | Politique         |
+    | Économique        |
+    | Socioculturel     |
+    | Technologique     |
+    | Écologique        |
+    | Légal             |
 
 ---
 
@@ -90,39 +94,66 @@
 
 ## I.4 Besoins / Objectifs
 - Explication : exprime ce qu’il faut pour répondre au problèmatique
+- Etape :
 
-| Caracteristique       | Detail                                                                |
-|:--------------------- |:--------------------------------------------------------------------- |
-| Besoins fonctionnels  | ce que l’utilisateur veut faire                                       |
-| Besoins techniques    | performance, sécurité…                                                |
-| Objectifs SMART       | Objectifs Spécifique - Mesurable – Atteignable – Réaliste - Temporel  |
+    Les besoins et les obectifs sont définit selon les critaires suivant :
 
-| Besoins techniques    |
-|:----------------------|
-| Disponibilité         |
-| Sécurité              |
-| Fiabilité             |
-| Performance           |
-| Flexibilité           |
-| Agilité               |
-| Durabilité            |
-| Economie              |
+    | Caracteristique       | Detail                                                                |
+    |:--------------------- |:--------------------------------------------------------------------- |
+    | Besoins fonctionnels  | ce que l’utilisateur veut faire                                       |
+    | Besoins techniques    | performance, sécurité…                                                |
+
+    | Besoin Fonctionnel        |
+    |:--------------------------|
+    | Ce que veut faire le User |
+
+    | Besoins Techniques    | Description                                           | Exemple                                                   |
+    |:----------------------|:------------------------------------------------------|:----------------------------------------------------------|
+    | Disponibilité         |Le service doit être accessible quand on en a besoin   |99,9 % de dispo                                            |
+    | Sécurité              |Protéger les données et les accès                      |Authentification forte                                     |
+    | Fiabilité             |Fonctionner sans erreur ni panne                       |Taux d’incidents faible                                    |
+    | Performance           |Répondre vite et supporter la charge                   |Temps de réponse < 200 ms                                  |
+    | Flexibilité           |S’adapter facilement aux changements                   |Ajouter une nouvelle fonctionnalité sans casser l’existant |
+    | Agilité               |Permettre des évolutions rapides                       |Déploiements fréquents                                     |
+    | Durabilité            |Rester viable et maintenable dans le temps             |Techno supportée 5+ ans                                    |
+    | Economie              |Optimiser les coûts de développement et d’exploitation |Mutualisation des Actifs                                   |
+    
+    | Objectifs SMART   | Description                                   | Exemple                                   |
+    |:------------------|:----------------------------------------------|:------------------------------------------|
+    | Spécifique        |Définir précisément ce que l’on veut atteindre |Une authentification forte pour les users  |
+    | Mesurable         |Pouvoir vérifier l’atteinte de l’objectif      |95 % des connexions doivent utiliser la PKI|
+    | Atteignable       |Objectif réaliste selon les moyens disponibles |Équipe de 3 devs + 1 PO                    |
+    | Réaliste          |Cohérent avec le contexte et les contraintes   |Budget validé par la DSI                   |
+    | Temporel          |Définir une échéance claire                    |Déploiement prévu en 3 mois                |
+
+    Lister les besoins et les classer
+
+    | ID    | Description Besoin Fonctionnel                    | Description Besoin Technique      | Spécifique                | Mesurable                 | Atteignable           | Réaliste          | Temporel  |
+    |:------|:--------------------------------------------------|:----------------------------------|:--------------------------|:--------------------------|:----------------------|:------------------|:----------|
+    |B1     |Renforcer la sécurité des accès wifi               |Déploiment de portail captif       |Authentification renforcée |100% des accès via portail |Actifs réseau dispo    |Infra compatible   |1 mois     |
+    |B2     |Sécuriser l’accès aux applis métier                |Déploiment MFA                     |Authentification forte     |95 % des connexions via MFA|Équipe sécurité dispo  |Budget validé      |3 semaine  |
+    |B3     Sécuriser l’accès aux données internes              |Gestion des accès (AGDLP)          |Contrôle d’accès structuré |100 % des groupes conformes|Équipe sécurité dispo  |Admins formés      |2 mois     |
+    |...    |...                                                |...                                |...                        |...                        |...                    |...                |...        |
+    |B(n)   |(besoin tech)                                      |(besoin tech)                      |(objectif)                 |(n)%                       |(Actifs actuel)        |(contrainte actuel)|(n) (temps)|
 
 ---
 
 ## I.5 Périmètre du projet
 - Explication : definit les limites/zones de resource de l'infra SI sur laquelle le projet impactera
+- Etape :
 
-| Plan du périmètre                         | Ce qui peut concrétement être               |
-|:------------------------------------------|:--------------------------------------------|
-| Sur le plan fonctionnel                   | Besoins métiers, processus, cas d’usage     |
-| Sur le plan applicatif                    | Applications, interconnexions, versions     |
-| Sur le plan OS                            | Systèmes d’exploitation, patching, support  |
-| Sur le plan matériel                      | Serveurs, stockage, postes, virtualisation  |
-| Sur le plan réseau                        | LAN, WAN, sécurité, segmentation            |
-| Sur le plan de gouvernance / stratégie    | Rôles, responsabilités, politiques, normes  |
-| Sécurité                                  | IAM, SOC, PRA/PCA, conformité               |
-| Données                                   | Qualité, stockage, flux, classification     |
+    - Le périmètre/zone d'intervention est définit sur différent plan, il faut expliquer sur quel plan le projet impactera
+
+    | Plan du périmètre                         | Ce qui peut concrétement être               |
+    |:------------------------------------------|:--------------------------------------------|
+    | Sur le plan fonctionnel                   | Besoins métiers, processus, cas d’usage     |
+    | Sur le plan applicatif                    | Applications, interconnexions, versions     |
+    | Sur le plan OS                            | Systèmes d’exploitation, patching, support  |
+    | Sur le plan matériel                      | Serveurs, stockage, postes, virtualisation  |
+    | Sur le plan réseau                        | LAN, WAN, sécurité, segmentation            |
+    | Sur le plan de gouvernance / stratégie    | Rôles, responsabilités, politiques, normes  |
+    | Sécurité                                  | IAM, SOC, PRA/PCA, conformité               |
+    | Données                                   | Qualité, stockage, flux, classification     |
 
 ---
 
@@ -156,3 +187,13 @@
 |:--------------------------|
 | tests validés             |
 | migration effectuée       |
+
+- En fonction des Actifs listé et classé dans la partie précédente, définir ce que le projet doit produire
+
+    |ID     |Actif SI                       |quantité   |Fonction                                       |Plan de la rsesource   |
+    |:------|:------------------------------|:----------|:----------------------------------------------|-----------------------|
+    |RSC1   |Serveur QNAP TS-464            |x2         |Stockage/Sauvegarde de fichier                 |matériel               |
+    |RSC2   |Licence VMWare ESXi 9.0        |x4         |Mutualise les ressources via la virtualisation |OS                     |
+    |RSC3   |Licence Suite E3 Microsoft 365 |x20        |Application metier pour les Users              |applicatif             |
+    |...    |...                            |...        |...                                            |...                    |
+    |RSC(n) |(actif)                        |x(n)       |(fonction)                                     |(plan)                 |

@@ -125,13 +125,13 @@
 
     - Listing et classement des actifs
 
-    |ID     |Actif                      |Coût           |Nombre à l'unité   |Type de Coût   |Catérogie de dépense   |Plan du périmètre  |
-    |:------|:--------------------------|:--------------|:------------------|:--------------|:----------------------|:------------------|
-    |CT1    |QNAP TS-464                |634€ HT        |x2                 |matériels      |CAPEX                  |                   |
-    |CT2    |Licence Win2025 Standard   |672,05€ HT     |x5                 |matériels      |CAPEX                  |                   |
-    |CT3    |Licence E3 Microsoft 365   |34,90€ HT /mois|x20                |logiciels      |OPEX                   |                   |
-    |...    |...                        |...            |...                |...            |...                    |...                |
-    |CT(n)  |(composant du SI)          |(n)€           |x(n)               |(type)         |(CAPEX/OPEX)           |(périmètre)        |
+    |ID     |Actif                      |Coût           |quantité   |Type de Coût   |Catérogie de dépense   |Plan du périmètre  |
+    |:------|:--------------------------|:--------------|:----------|:--------------|:----------------------|:------------------|
+    |CT1    |QNAP TS-464                |634€ HT        |x2         |matériels      |CAPEX                  |matériel           |
+    |CT2    |Licence Win2025 Standard   |672,05€ HT     |x5         |matériels      |CAPEX                  |OS                 |
+    |CT3    |Licence E3 Microsoft 365   |34,90€ HT /mois|x20        |logiciels      |OPEX                   |applicatif         |
+    |...    |...                        |...            |...        |...            |...                    |...                |
+    |CT(n)  |(composant du SI)          |(n)€           |x(n)       |(type)         |(CAPEX/OPEX)           |(périmètre)        |
 
     - Calcule de coût total de possession et de retour sur investissement
 

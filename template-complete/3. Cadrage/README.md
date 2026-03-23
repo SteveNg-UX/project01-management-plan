@@ -12,12 +12,25 @@
 - Notion :
   - [Périmètre](#remarque-)
 
-  | Ce qui doit être inclu dans les analyses  |
-  |:------------------------------------------|
-  | Dépendances entre actifs                  |
-  | Processus métiers associés                |
-  | Niveaux de criticité                      |
-  | Contraintes actuelles                     |
+    - Si le projet couvre une majeur partie du SI, alors il faut définir le périmètre/zone qui ne doit pas être impacté
+    - Si le projet couvre une mineur partie du SI, alors il faut définir le périmètre/zone qui seront impacté
+      
+    | Ce qui doit être inclu dans les analyses  |
+    |:------------------------------------------|
+    | Dépendances entre actifs                  |
+    | Processus métiers associés                |
+    | Niveaux de criticité                      |
+    | Contraintes actuelles                     |
+
+    - Lister et classer les Actifs selon le plan vue précédemment à l'étape [Présentation général dans la partie I.5 Périmètre du projet]()
+
+    |ID     |Actif SI                       |quantité   |Fonction                                       |Plan de la rsesource   |
+    |:------|:------------------------------|:----------|:----------------------------------------------|-----------------------|
+    |RSC1   |Serveur QNAP TS-464            |x2         |Stockage/Sauvegarde de fichier                 |matériel               |
+    |RSC2   |Licence VMWare ESXi 9.0        |x4         |Mutualise les ressources via la virtualisation |OS                     |
+    |RSC3   |Licence Suite E3 Microsoft 365 |x20        |Application metier pour les Users              |applicatif             |
+    |...    |...                            |...        |...                                            |...                    |
+    |RSC(n) |(actif)                        |x(n)       |(fonction)                                     |(plan)                 |
 
 ---
 
