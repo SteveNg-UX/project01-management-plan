@@ -146,7 +146,9 @@
 - Explication : 
 - Notion :
 
-    - Indication pour utiliser une Matrice de Risque
+    Les risques, menace et défaut sont définit sur 2 critères
+    - L'impact sur l'infra du SI
+    - La probabilité qu'il puisse arrivé
 
     | Impact        | score |
     |:--------------|:------|
@@ -168,19 +170,22 @@
     | Préventives               |
     | Correctives               |
 
-    - Mise en pratique :
+    - Identifier, lister et qualifier les risques dans un tableau des risques
 
-    | ID    | Scénario  | Cause | Conséquence   | Impact / Criticité    | Probabilité   | Priorité (score = Impact+ P robabilité)   | Mesure mitigation |
-    |:------|:----------|:------|:--------------|:----------------------|:--------------|:------------------------------------------|:------------------|
-    | R1    | ...       | ...   | ...           | 2                     | 3             | 5                                         | ...               |
-    | R2    | ...       | ...   | ...           | 5                     | 2             | 7                                         | ...               |
-    | ...   | ...       | ...   | ...           | ...                   | ...           | ...                                       | ...               |
-    | R(n)  | ...       | ...   | ...           | (1-5)                 | (1-4)         | (2-9)                                     | ...               |
+    | ID    | Scénario                  | Cause                                     | Conséquence                                           | Impact / Criticité    | Probabilité   | Priorité (score = Impact+ P robabilité)   | Mesure mitigation                         |
+    |:------|:--------------------------|:------------------------------------------|:------------------------------------------------------|:----------------------|:--------------|:------------------------------------------|:------------------------------------------|
+    |RSK1   |température ambiant élevé  |absence de dispositif de refroidissement   | appareils en surchauffe                               |4                      |3              |7                                          |Ajouter un dispositif de refroidissement   |
+    |RSK2   |OS obsolète                |fin de support de la version de l'OS       | future vulnérabilités non patché                      |4                      |4              |9                                          |Faire un upgrade de l'OS                   |
+    |RSK3   |indisponibilité serveur app|un seul serveur app                        | users bloqués pour l'utilisation de l'app du serveur  |3                      |2              |5                                          |Ajouter de la redondance                   |
+    | ...   | ...                       | ...                                       | ...                                                   | ...                   | ...           | ...                                       | ...                                       |
+    |RSK(n) | (situation)               | (cause)                                   | (conséquence)                                         |(1-5)                  |(1-4)          |(2-9)                                      |(solution)                                 |
+
+    - Classer ensuite les risques en fonction des ordre de priorité dans une matrice de risque
 
     |Impact / probablilité  |Peu probable (1)   |Probable (2)   |Possible (3)   |Très probable (4)  |
     |:----------------------|:------------------|:--------------|:--------------|:------------------|
     |Négligeable (1)        |                   |               |               |                   |
-    |Mineur (2)             |                   |               | R1            |                   |
-    |Modéré (3)             |                   |               |               |                   |
-    |Majeur (4)             |                   |               |               |                   |
-    |Catastrophique (5)     |                   | R2            |               |                   |
+    |Mineur (2)             |                   |               |               |                   |
+    |Modéré (3)             |                   | RSK3          |               |                   |
+    |Majeur (4)             |                   |               | R1            | R2                |
+    |Catastrophique (5)     |                   |               |               |                   |
