@@ -132,7 +132,7 @@
     |:------|:--------------------------------------------------|:----------------------------------|:--------------------------|:--------------------------|:----------------------|:------------------|:----------|
     |B1     |Renforcer la sécurité des accès wifi               |Déploiment de portail captif       |Authentification renforcée |100% des accès via portail |Actifs réseau dispo    |Infra compatible   |1 mois     |
     |B2     |Sécuriser l’accès aux applis métier                |Déploiment MFA                     |Authentification forte     |95 % des connexions via MFA|Équipe sécurité dispo  |Budget validé      |3 semaine  |
-    |B3     Sécuriser l’accès aux données internes              |Gestion des accès (AGDLP)          |Contrôle d’accès structuré |100 % des groupes conformes|Équipe sécurité dispo  |Admins formés      |2 mois     |
+    |B3     |Sécuriser l’accès aux données internes             |Gestion des accès (AGDLP)          |Contrôle d’accès structuré |100 % des groupes conformes|Équipe sécurité dispo  |Admins formés      |2 mois     |
     |...    |...                                                |...                                |...                        |...                        |...                    |...                |...        |
     |B(n)   |(besoin tech)                                      |(besoin tech)                      |(objectif)                 |(n)%                       |(Actifs actuel)        |(contrainte actuel)|(n) (temps)|
 
@@ -158,7 +158,7 @@
 ---
 
 ## I.6 Livrables attendus
-- Explication : ce que le projet doit produire pour répondre au besoin
+- Explication : ce que l’équipe doit produire pour prouver que l’objectif est atteint
 
 | Type de Livrables     |
 |:----------------------|
@@ -187,13 +187,3 @@
 |:--------------------------|
 | tests validés             |
 | migration effectuée       |
-
-- En fonction des Actifs listé et classé dans la partie précédente, définir ce que le projet doit produire
-
-    |ID     |Actif SI                       |quantité   |Fonction                                       |Plan de la rsesource   |
-    |:------|:------------------------------|:----------|:----------------------------------------------|-----------------------|
-    |RSC1   |Serveur QNAP TS-464            |x2         |Stockage/Sauvegarde de fichier                 |matériel               |
-    |RSC2   |Licence VMWare ESXi 9.0        |x4         |Mutualise les ressources via la virtualisation |OS                     |
-    |RSC3   |Licence Suite E3 Microsoft 365 |x20        |Application metier pour les Users              |applicatif             |
-    |...    |...                            |...        |...                                            |...                    |
-    |RSC(n) |(actif)                        |x(n)       |(fonction)                                     |(plan)                 |
