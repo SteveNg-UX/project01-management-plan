@@ -10,16 +10,10 @@
 
 ## II.1 Équipe projet
 - Explication : 
-- Notion :
-
-    | Matrice RACI          |
-    |:----------------------|
-    |Tâche                  |
-    |Nom de la personne     |
-    |Poste                  |
-    |Rôle dans le projet    |
-    |Equipe                 |
-    |MOA /MOE               |
+- Etape :
+    Definir une matrice RACI avec 2 éléments :
+    - Les étapes du projet
+    - Les roles des équipes
 
     | Rôle dans le projet   | Lettre  |
     |:----------------------|:--------|
@@ -28,28 +22,46 @@
     |Conseiller             | (C)     |
     |Informé                | (I)     |
 
-    |MOA (Partie Prenant)       |MOE (Equipe Projet)    |
+    | Equipe            | Profile                                       |
+    |:------------------|:----------------------------------------------|
+    |Exploitation (Ops) |Admin Systèmes, Admin Réseau, SRE, IT Support  |
+    |Sécurité (Cyber)   |RSSI, SecOps, Pentest                          |
+    |Développement (Dev)|Dev Fullstack, Tech lead, QA                   |
+    |Architecte (Arch)  |Architecte SI, Architecte Solution             |
+    |Projet (PMO)       |Chef de projet, Product Owner, Scrum Master    |
+    |Platform Ingineer  |Ingénieur DevOps                               |
+
+    | MOA (Partie Prenant)      |MOE (Equipe Projet)    |
     |:--------------------------|:----------------------|
-    |RSSI                       |Architectes            |
     |DSI                        |Ops                    |
+    |RSSI                       |Cyber                  |
     |Fournisseurs               |Dev                    |
-    |                           |DevOps                 |
-    |                           |Expert                 |
+    |Utilisateurs               |Arch                   |
+    |Chef de projet MOA         |PMO                    |
+    |                           |Platform Ingineer      |
 
-    - Mise en pratique :
+    - Lister les différentes étapes du projet avec le rôle des équipes :
 
-    |ID     |Tâche  |Nom de la personne     |Poste      |Rôle dans le projet    |Equipe |MOA /MOE   |
-    |:------|:------|:----------------------|:----------|:----------------------|:------|:----------|
-    |T1     |...    |John Doe               |Admin      |R                      |Ops    |MOE        |
-    |T2     |...    |Jane Doe               |Dev Front  |R                      |Dev    |MOE        |
-    |...    |...    |...                    |...        |...                    |...    |...        |
-    |T(n)   |(tâche)|(prenom) (nom)         |(poste)    |(Role)                 |(Eqp.) |(MOA/MOE)  |
+    | Livrable / Activité               | DSI (MOA) | RSSI (MOA)    | Fournisseurs (MOA)    | Chef de projet MOA    | Dev   | Ops   | Cyber | Arch  | PMO   | Platform Eng. |
+    |-----------------------------------|-----------|---------------|-----------------------|-----------------------|-------|-------|-------|-------|-------|---------------|
+    | Recueil des besoins / objectifs   | A         | I             | C                     | R                     | C     | I     | I     | C     | C     | I             |
+    | Spécifications fonctionnelles     | A         | I             | C                     | R                     | R     | I     | I     | C     | C     | I             |
+    | Spécifications techniques         | I         | I             | C                     | C                     | R     | C     | C     | A     | C     | C             |
+    | Architecture cible                | I         | C             | C                     | C                     | C     | C     | C     | A/R   | I     | C             |
+    | Conception                        | I         | I             | C                     | I                     | R     | I     | C     | C     | C     | C             |
+    | Deploiement                       | I         | I             | I                     | I                     | C     | C     | C     | C     | I     | R/A           |
+    | Tests fonctionnels                | I         | I             | C                     | R                     | R     | I     | I     | I     | C     | I             |
+    | Tests techniques / sécurité       | I         | A             | C                     | I                     | C     | C     | R     | C     | C     | C             |
+    | Déploiement en production         | I         | I             | I                     | I                     | C     | R/A   | C     | C     | C     | C             |
+    | Gestion du changement             | A         | C             | I                     | R                     | C     | C     | C     | C     | C     | I             |
+    | Documentation finale              | A         | I             | C                     | R                     | R     | C     | C     | C     | C     | I             |
+    | Clôture du projet                 | A         | I             | I                     | R                     | C     | C     | C     | C     | R     | I             |
 
 ---
 
 ## II.2 Gouvernance
 - Explication : 
-- Notion :
+- Etape :
     
     |Comité |Ce qui peut concrétement être              |
     |:------|:------------------------------------------|
@@ -61,7 +73,7 @@
 
 ## II.3 Méthodologie
 - Explication : 
-- Notion :
+- Etape :
     - Catégorie Cycle Sequentielle
 
       | Cycle   |
@@ -89,7 +101,7 @@
 
 ## II.4 Planning
 - Explication : 
-- Notion :
+- Etape :
 
     | Diagramme de gantt    |
     |:----------------------|
@@ -102,7 +114,7 @@
 
 ## II.5 Budget / Coûts
 - Explication : 
-- Notion :
+- Etape :
 
     Les coûts de chaque actif sur l'ensemble du SI seront catégorisé selon 5 critaires:
     - Le coût de l'actif
@@ -144,7 +156,7 @@
 
 ## II.6 Analyse des risques
 - Explication : 
-- Notion :
+- Etape :
 
     Les risques, menace et défaut sont définit sur 2 critères
     - L'impact sur l'infra du SI
