@@ -1,7 +1,13 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Projet%2001&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&textBg=false"/>
 
+# 📌 Objectif du projet
+  
+Ce référentiel propose un plan de management de projet IT universel, accompagné de critères d’évaluation pour chaque phase.
+Il permet d’obtenir une compréhension homogène et professionnelle des projets IT, quel que soit le domaine technique.
 
-# Différente type de projet
+---
+
+# Exemples d'utilisation
 - [Projets d’infrastructure](#projets-d’infrastructure)
 - [Projets applicatifs](#projets-applicatifs)
 - [Projets de cybersécurité](#projets-de-cybersécurité)
