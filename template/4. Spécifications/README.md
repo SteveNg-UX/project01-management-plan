@@ -71,6 +71,15 @@
     - contraintes de planning
     - contraintes d’infrastructure
 
+    - Mise en pratique sur la descrition des contraintes:
+
+    |ID         |Description    |Critère d’acceptation  |
+    |:----------|---------------|-----------------------|
+    |CTR1       |...            |Test sur ... OK        |
+    |CTR2       |...            |Check sur ... OK       |
+    |...        |...            |...                    |
+    |CTR(n)     |que doit faire |Test sur (fonction) OK |
+
 ---
 
 ### IV.4 Étude de marché / Benchmark solutions
