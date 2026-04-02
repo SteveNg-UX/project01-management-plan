@@ -73,12 +73,12 @@
 
     - Mise en pratique sur la descrition des contraintes:
 
-    |ID         |Description    |Critère d’acceptation  |
-    |:----------|---------------|-----------------------|
-    |CTR1       |...            |Test sur ... OK        |
-    |CTR2       |...            |Check sur ... OK       |
-    |...        |...            |...                    |
-    |CTR(n)     |que doit faire |Test sur (fonction) OK |
+    |ID         |type de contrainte |Description    |Critère d’acceptation  |
+    |:----------|-------------------|---------------|-----------------------|
+    |CTR1       |infrastructure     |...            |Test sur ... OK        |
+    |CTR2       |organisationnelles |...            |Check sur ... OK       |
+    |...        |                   |...            |...                    |
+    |CTR(n)     |type               |que doit faire |Test sur (fonction) OK |
 
 ---
 
