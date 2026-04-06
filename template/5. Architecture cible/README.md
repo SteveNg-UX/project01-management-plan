@@ -14,3 +14,8 @@
 ### V.2 Architecture technique
 - Explication :
 - Notion :
+
+|Type d'architecture technique  |
+|:------------------------------|
+|Architecture applicatifs       |
+|Architecture réseau            |
